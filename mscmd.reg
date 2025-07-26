@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\ms-cmd]
+@="URL:Run CMD"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\ms-cmd\shell]
+
+[HKEY_CLASSES_ROOT\ms-cmd\shell\open]
+
+[HKEY_CLASSES_ROOT\ms-cmd\shell\open\command]
+@="\"C:\\mscmd\\handler.bat\" %1"
